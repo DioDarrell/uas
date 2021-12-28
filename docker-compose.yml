@@ -4,7 +4,7 @@ services:
         image: rekudio/uas
         container_name: web-server
         build:
-            context: ./php
+            context: ./
             dockerfile: Dockerfile
         depends_on:
             - db
